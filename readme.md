@@ -32,6 +32,8 @@ In the project directory, you can run:
 
 ## Contributing
 
+[Check this Demo](https://earnest-kleicha-9c756d.netlify.app/)
+
 Contributions are welcome! If you find any issues or want to add new features, please submit a pull request.
 
 ## License
