@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'SFProText';
+  src: url('/fonts/SFProText.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SFProTextBold';
+  src: url('/fonts/SFProTextBold.ttf') format('truetype');
+}
