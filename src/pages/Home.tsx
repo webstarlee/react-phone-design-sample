@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faAngleUp, faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Button from "@/components/Button";
@@ -14,10 +14,10 @@ const Home: React.FC = () => {
   const [selectedTabIndex, SetSelectedTabIndex] = React.useState(0);
 
   const tabs = [
-    { title: 'Day', content: 'Content for Tab 1' },
-    { title: 'Week', content: 'Content for Tab 2' },
-    { title: 'Month', content: 'Content for Tab 3' },
-    { title: 'Year', content: 'Content for Tab 4' },
+    { title: 'Day', lower: '4.895', higher: '4.995' },
+    { title: 'Week', lower: '4.762', higher: '4.835' },
+    { title: 'Month', lower: '5.245', higher: '5.595' },
+    { title: 'Year', lower: '3.456', higher: '5.599' },
   ];
 
   const data = [
@@ -79,10 +79,10 @@ const Home: React.FC = () => {
               <Card>
                 <CardHeader className="chart-header">
                   <div className="chart-header-low">
-                    Lower: $4.895
+                    Lower: ${tab.lower}
                   </div>
                   <div className="chart-header-high">
-                    Higher: $6.857
+                    Higher: ${tab.higher}
                   </div>
                 </CardHeader>
                 <CardFooter className="chart-container">

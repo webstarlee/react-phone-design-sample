@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleLeft, faClose, faEllipsisVertical, faEllipsisH, faHome, faUser, faSignOut } from '@fortawesome/free-solid-svg-icons'
+import { faAngleLeft, faClose, faEllipsisVertical, faHome, faUser, faSignOut } from '@fortawesome/free-solid-svg-icons'
 import Button from "./Button";
 
 const Header: React.FC = () => {

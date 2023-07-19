@@ -2,9 +2,7 @@ import React from "react";
 import {
   ResponsiveContainer,
   AreaChart,
-  LineChart,
   Area,
-  Line
 } from "recharts";
 
 interface DataItem {
