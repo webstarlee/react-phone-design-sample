@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown, faAngleUp, faBitcoinSign } from '@fortawesome/free-solid-svg-icons'
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Button from "@/components/Button";
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
         <Card>
           <CardHeader>
             <div className="crypto-img">
-              <img src="images/fonts/btc.svg" alt="btc" />
+              <FontAwesomeIcon icon={faBitcoinSign} color="#FFFFFF" size="xl" />
             </div>
             <div className="crypto-name">Bitcoin</div>
             <div className="crypto-symbol">BTC</div>
@@ -86,6 +86,7 @@ const Home: React.FC = () => {
                   </div>
                 </CardHeader>
                 <CardFooter className="chart-container">
+                  <div className="btc-price-box">1BTC = $5.483</div>
                   <Chart data={data} />
                 </CardFooter>
               </Card>

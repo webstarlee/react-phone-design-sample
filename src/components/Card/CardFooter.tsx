@@ -2,7 +2,7 @@ import React from "react";
 
 interface CardFooterProps {
   className?: string;
-  children?: React.ReactNode
+  children?: React.ReactNode;
 }
 
 const CardFooter = ({className, children}: CardFooterProps) => {

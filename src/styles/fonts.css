@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'SFProText';
-  src: url('/fonts/SFProText.ttf') format('truetype');
+  font-family: 'SFProDisplayBold';
+  src: url('/fonts/SFProDisplayBold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'SFProTextBold';
-  src: url('/fonts/SFProTextBold.ttf') format('truetype');
+  font-family: 'SFProDisplaySemiBold';
+  src: url('/fonts/SFProDisplaySemibold.ttf') format('truetype');
 }
